@@ -9,7 +9,7 @@ const Herobanner = () => {
             mt: { lg: '212px', xs: '70px'},
             ml: { sm: '50px'}
         }} position="relative" p="20px">
-            <Typography mb={2} color='#FF2625' fontWeight="600" fontSize="32px">
+            <Typography mb={2} color='#700f0f' fontWeight="600" fontSize="32px">
                 Tren Tech
             </Typography>
             <Typography fontWeight={700} sx={{ fontSize: { lg: '44px', xs: '40px'}}}>
@@ -19,12 +19,12 @@ const Herobanner = () => {
                 Be swole with our work out split.
             </Typography>
             <Button variant='contained'
-               color='error' href='#exercises' sx={{ backgroundColor: '#ff2625', padding: '10px'}}>
+               color='error' href='#exercises' sx={{ backgroundColor: '#700f0f', padding: '10px'}}>
                 Get Huge
             </Button>
             <Typography 
                 fontWeight={600}
-                color="#ff2625"
+                color="#700f0f"
                 sx={{
                     opacity: 0.1,
                     display: { lg: 'block', xs: 'none'}
@@ -33,7 +33,8 @@ const Herobanner = () => {
                 >
                     Workout
                 </Typography>
-            <img src={BannerImage} alt='Banner' className="hero-banner-img" />
+            <img src={BannerImage} alt='Banner' className="hero-banner-img"
+            />
         </Box>
     )
 }
